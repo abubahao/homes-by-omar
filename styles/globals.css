@@ -1,0 +1,14 @@
+/*
+ * Import Tailwind CSS. Starting with Tailwind CSS v4 when using
+ * `@tailwindcss/postcss`, you import the entire framework as a single module.
+ */
+@import "tailwindcss";
+
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap');
+
+/* Global base styles */
+body {
+  @apply bg-white text-gray-900;
+  font-family: 'Inter', sans-serif;
+}
